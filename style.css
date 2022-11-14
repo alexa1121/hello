@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  position: relative;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #e4e9f7;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+    display: flex;
+}
+
+.face{
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+.face img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.info{
+    padding: 48px;
+    text-align: center;
+}
+.info a{
+    position: relative;
+    top: 17px;
+    
+}
+.desc{
+    color: #717FA6;
+}
+.plan{
+    background-color: #F7F9FF;
+    width: 354px;
+    height: 98px;
+    border-radius: 11px;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.plan img{
+    position: relative;
+    right: 35px;
+}
+.price{
+    position: relative;
+    right: 35px;
+    margin: 20px;
+      
+}
+.price h3{
+    margin: 10px 0;
+}
+.ch{
+    color: blue;
+    text-decoration: underline;
+    position: relative;
+    left: 15px;
+}
+.ch:active{
+    transition: 0.1s;
+    cursor: pointer;
+    color: purple;
+    text-decoration: none;
+}
+
+
+h1{
+    color: #1F2E55;
+}
+
+.plan2{
+    Width: 354px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    margin-top: 30px;
+    
+    color: aliceblue;
+    box-shadow: 0px 20px 20px rgb(56 42 225 / 19%);
+    
+    
+    
+}
+.canc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 375px){
+    .face{
+        width: 327px;
+        height: 576px;
+        border-radius: 20px;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .info{
+        padding: 48px;
+        text-align: center;
+        
+    }
+    .order{
+        font-size: 25px;
+    }
+    .desc{
+        font-size: 12px;
+    }
+    .info a{
+        position: relative;
+        top: 17px;
+        
+    }
+    .plan{
+        background-color: #F7F9FF;
+        width: 279px;
+        height: 81px;
+        border-radius: 11px;
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .plan img{
+        position: relative;
+        right: 5px;
+    }
+    .price{
+        position: relative;
+        right: 15px;
+        margin: 20px;
+          
+    }
+    .price h3{
+        margin: 5px 0;
+    }
+    .ch{
+        color: blue;
+        text-decoration: underline;
+        position: relative;
+        left: 5px;
+    }
+    .plan2{
+        Width: 279px;
+        height: 50px;
+        background-color: blue;
+        border-radius: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        margin-top: 20px;
+        
+        
+        color: aliceblue;
+        box-shadow: 0px 20px 20px rgb(56 42 225 / 19%);
+        
+    
+    }
+    .canc {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 5px;
+        
+    }
+    
+    
+}
+
+
